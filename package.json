@@ -1,0 +1,9 @@
+{
+  "name": "angular-exmaple",
+  "description": "An angular exmaple with multiple views",
+  "author": "Sebastian Jimenez V",
+  "dependencies": {
+    "express": ">= 1.2.0"
+  },
+  "engine": "node 0.4.1"
+}

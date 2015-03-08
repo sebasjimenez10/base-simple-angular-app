@@ -1,0 +1,17 @@
+/********************************** classes ***************************************/
+
+.content.ng-enter {
+	-webkit-animation: moveFromTopFade .6s ease both;
+	animation: moveFromTopFade .6s ease both;
+}
+
+.content.ng-leave { }
+
+/********************************* keyframes **************************************/
+
+@-webkit-keyframes moveFromTopFade {
+	from { opacity: 0.3; -webkit-transform: translateY(-100%); }
+}
+@keyframes moveFromTopFade {
+	from { opacity: 0.3; -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+}
